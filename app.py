@@ -22,7 +22,7 @@ def compare():
             weighted_qci = qci * 0.5
 
             # Relationship Level Calculation
-            relationship_points = {"COL": 100, "CSP": 100, "CI": 40}
+            relationship_points = {"COL": 42.5, "CSP": 42.5, "CI": 15}
             weighted_relationship_score = relationship_points[relationship_level] * 0.3
 
             # Capacity Calculation
